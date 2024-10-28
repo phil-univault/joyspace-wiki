@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 const REQUIRE_ENV_VARS = false;
 
-const TITLE = 'Photo Blog';
+const TITLE = 'R((ii))F';
 const DESCRIPTION = 'Store photos with original camera data';
 const REPO_TEAM = 'sambecker';
 const REPO_NAME = 'exif-photo-blog';
@@ -22,7 +22,7 @@ export function GET() {
   url.searchParams.set('from', 'templates');
   url.searchParams.set('skippable-integrations', '1');
   if (REQUIRE_ENV_VARS) {
-    url.searchParams.set('env-description', 'Configure your photo blog meta');
+    url.searchParams.set('env-description', 'Configure your R((ii))F meta');
     url.searchParams.set('env-link', 'BLANK');
     url.searchParams.set('env', [
       'NEXT_PUBLIC_SITE_TITLE',
