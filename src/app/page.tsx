@@ -16,7 +16,7 @@ export default function HomePage() {
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
   const [showUrlInput, setShowUrlInput] = useState(false);
   const [url, setUrl] = useState('');
-  const [error, setError] = useState<string | null>(null);
+  const [_error, setError] = useState<string | null>(null);
   const router = useRouter();
 
   useEffect(() => {

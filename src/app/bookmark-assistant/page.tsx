@@ -23,7 +23,7 @@ const initialBookmarks = [
 
 export default function BookmarkAssistant() {
     const [searchTerm, setSearchTerm] = useState('');
-    const [bookmarks, setBookmarks] = useState(initialBookmarks);
+    const [bookmarks, _setBookmarks] = useState(initialBookmarks);
 
     const filteredBookmarks = bookmarks.filter(bookmark =>
         bookmark.title.toLowerCase().includes(searchTerm.toLowerCase())

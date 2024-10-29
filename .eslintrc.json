@@ -3,36 +3,31 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "@next/next/no-img-element": "off",
-    "@typescript-eslint/no-unused-expressions": ["warn"],
+    "@typescript-eslint/no-unused-expressions": "warn",
     "@typescript-eslint/no-unused-vars": [
-      "warn", {
+      "warn",
+      {
         "argsIgnorePattern": "^_",
-        "varsIgnorePattern": "^_"
+        "varsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_"
       }
     ],
-    "comma-dangle": [
-      "warn",
-      "always-multiline"
-    ],
-    "indent": [
-        "warn",
-        2
-    ],
-    "linebreak-style": [
-        "warn",
-        "unix"
-    ],
-    "quotes": [
-        "warn",
-        "single"
-    ],
-    "semi": [
-        "warn",
-        "always"
-    ],
-    "max-len": [
-      "warn",
-      { "code": 80 }
+    "comma-dangle": "off",
+    "indent": "off",
+    "linebreak-style": "off",
+    "quotes": "off",
+    "semi": "warn",
+    "max-len": "off",
+    "no-multiple-empty-lines": "warn",
+    "object-curly-spacing": "off",
+    "array-bracket-spacing": "off",
+    "react/no-unescaped-entities": "off"
+  },
+  "ignorePatterns": [
+    "node_modules/",
+    ".next/",
+    "public/",
+    "*.config.js",
+    "**/*.d.ts"
   ]
-  }
 }
