@@ -11,7 +11,7 @@ export const SHOULD_DEBUG_SQL = false;
 
 export const SITE_TITLE =
   process.env.NEXT_PUBLIC_SITE_TITLE ||
-  'R((ii))F';
+  'JoySpace.wiki';
 
 // SOURCE
 export const VERCEL_COMMIT_MESSAGE =

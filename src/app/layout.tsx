@@ -19,6 +19,7 @@ import Footer from '@/site/Footer';
 import CommandK from '@/site/CommandK';
 import SwrConfigClient from '../state/SwrConfigClient';
 import AdminBatchEditPanel from '@/admin/AdminBatchEditPanel';
+import { Toaster } from 'sonner';
 
 import '../site/globals.css';
 import '../site/sonner.css';
@@ -98,6 +99,7 @@ export default function RootLayout({
                   'mb-12',
                 )}>
                   {children}
+                  <Toaster position="top-right" />
                 </div>
                 <Footer />
               </main>
