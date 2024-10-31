@@ -57,10 +57,10 @@ export default function HomePage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-[1.5rem] md:text-[2.5rem] font-bold text-gray-900 dark:text-white mb-8"
           >
-            Bring Joy to Your Digital Space
+            Joyganize Your Space
           </motion.h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-            Open-source tools to organize your bookmarks, screenshots, and media <br /> Making digital organization delightful.
+            Open-source tools to organize your bookmarks, screenshots, and media <br /> Bringing joy to your digital organization.
           </p>
         </div>
 
